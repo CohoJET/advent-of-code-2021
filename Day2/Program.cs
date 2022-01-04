@@ -39,7 +39,7 @@ namespace Day2
                 }
             }
 
-            Console.WriteLine($"Part One result: {horizontal * depth} increases");
+            Console.WriteLine($"Part One result: {horizontal * depth}");
         }
 
         static void PartTwo()
@@ -70,7 +70,7 @@ namespace Day2
                 }
             }
 
-            Console.WriteLine($"Part Two result: {horizontal * depth} increases");
+            Console.WriteLine($"Part Two result: {horizontal * depth}");
         }
     }
 }

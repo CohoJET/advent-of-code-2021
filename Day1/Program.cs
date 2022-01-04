@@ -21,7 +21,7 @@ namespace Day1
             for (int i = 1; i < report.Length; i++)
                 result += report[i] > report[i - 1] ? 1 : 0;
 
-            Console.WriteLine($"Part One result: {result} increases");
+            Console.WriteLine($"Part One result: {result}");
         }
 
         static void PartTwo()
@@ -36,7 +36,7 @@ namespace Day1
                 result += window2 > window1 ? 1 : 0;
             }
 
-            Console.WriteLine($"Part Two result: {result} increases");
+            Console.WriteLine($"Part Two result: {result}");
         }
     }
 }
